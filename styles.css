@@ -423,11 +423,11 @@ body{
    display: block;
   }
 .hamburger-menu.active .bar:nth-child(1){
-   transform: translateY(2px) rotate(45deg);
+   transform: translateY(6px) rotate(45deg);
    background-color: #000;
   }
 .hamburger-menu.active .bar:nth-child(2){
-      transform: translateY(-2px) rotate(-45deg);
+      transform: translateY(-6px) rotate(-45deg);
       background-color: #000;
     }
 a{
