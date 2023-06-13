@@ -1,0 +1,1001 @@
+@font-face {
+    font-family: "preview_editorial-old-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEditorialOld-LightItalic.woff?v=43892641468580326521678141322") format("woff");
+}
+@font-face {
+    font-family: "neue-montreal";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/NeueMontreal-Book.woff?v=61135405164717552181613662938") format("truetype");
+}
+@font-face {
+    font-family: "EditorialOld-Light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEditorialOld-LightItalic.woff?v=43892641468580326521678141322") format("truetype");
+}
+@font-face {
+    font-family: "Fragment-Light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFragment-GlareLightItalic.woff?v=157666343227082492511680612148") format("truetype");
+}
+@font-face {
+    font-family: "preview_right-serif-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PP%20Right%20Serif%20-%20Medium.woff?v=64606545584787087001668806753") format("woff");
+}
+@font-face {
+    font-family: "preview_fragment-glare-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFragment-GlareRegular.woff?v=169381596555285477591680612192") format("woff");
+}
+@font-face {
+    font-family: "preview_right-didone-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PP%20Right%20Didone%20-%20Medium.woff?v=51078320478336269511668806927") format("woff");
+}
+@font-face {
+    font-family: "preview_right-slab-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PP%20Right%20Slab%20-%20Regular.woff?v=49465384248129735891668806827") format("woff");
+}
+@font-face {
+    font-family: "preview_acma-semibold";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPAcma-Semibold.woff?v=96950151476378755521674140888") format("woff");
+}
+@font-face {
+    font-family: "preview_neue-machina-collection-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPNeueMachina-InktrapRegular.woff?v=94093630506073623461652789099") format("woff");
+}
+@font-face {
+    font-family: "preview_writer-book";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPWriter-Ultralight.woff?v=23630151852283412921663675391") format("woff");
+}
+@font-face {
+    font-family: "brut";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/OTBrut-Italic.woff?v=98945706201526961261684249221") format("truetype");
+}
+@font-face {
+    font-family: "preview_mori-Regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPMori-Regular.woff?v=67187122880011220361650291605") format("woff");
+}
+@font-face {
+    font-family: "preview_telegraf-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPTelegraf-Regular.woff?v=40612549650330146891673963252") format("woff");
+}
+@font-face {
+    font-family: "preview_right-sans-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightSans-Medium.woff?v=48232260037999330521647623980") format("woff");
+}
+@font-face {
+    font-family: "preview_ppeditorialold-lightitalic";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEditorialOld-LightItalic.woff?v=43892641468580326521678141322") format("woff");
+}
+@font-face {
+    font-family: "preview_ppacma-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPAcma-Light.woff?v=72702021297549173491674140889") format("woff");
+}
+@font-face {
+    font-family: "preview_ppmori-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPMori-Regular.woff?v=67187122880011220361650291605") format("woff");
+}
+@font-face {
+    font-family: "preview_pprader-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRader-Light.woff?v=176217386478503134871643052010") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightgothic-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightGothic-Medium.woff?v=160110820981467670211634317869") format("woff");
+}
+@font-face {
+    font-family: "preview_ppneuemontreal-book";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPNeueMontreal-Book.woff?v=68282321310470500161632272263") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightdidone-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightDidone-Medium.woff?v=51078320478336269511670941931") format("woff");
+}
+@font-face {
+    font-family: "preview_ppwriter-thin";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPWriter-Thin.woff?v=168778906737173938721663675371") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightsans-widemedium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightSans-WideMedium.woff?v=63428548569476708271647623790") format("woff");
+}
+@font-face {
+    font-family: "preview_ppfragment-glareregular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFragment-GlareRegular.woff?v=169381596555285477591680612192") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightserif-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightSerif-Medium.woff?v=64606545584787087001670941943") format("woff");
+}
+@font-face {
+    font-family: "preview_ppformula-narrowregular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFormula-NarrowRegular.woff?v=147832386674796250431646669962") format("woff");
+}
+@font-face {
+    font-family: "preview_ppeditorialnew-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEditorialNew-Light.woff?v=98451368185129732171619057364") format("woff");
+}
+@font-face {
+    font-family: "preview_ppobjectsans-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPObjectSans-Light.woff?v=81613872045370192371624308467") format("woff");
+}
+@font-face {
+    font-family: "preview_ppneuemachina-inktrapregular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPNeueMachina-InktrapRegular.woff?v=94093630506073623461652789099") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightslab-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightSlab-Medium.woff?v=14491603322088205341670941904") format("woff");
+}
+@font-face {
+    font-family: "preview_ppfraktionmono-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFraktionMono-Regular.woff?v=77514694890973026961624485085") format("woff");
+}
+@font-face {
+    font-family: "preview_ppsupplysans-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPSupplySans-Light.woff?v=90929501271319282271637682253") format("woff");
+}
+@font-face {
+    font-family: "preview_pprightgrotesk-compactbold";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPRightGrotesk-CompactBold.woff?v=58307693275388090051624460387") format("woff");
+}
+@font-face {
+    font-family: "preview_ppneueworld-semicondensedlight";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPNeueWorld-SemiCondensedLight.woff?v=107901976747285757481654525003") format("woff");
+}
+@font-face {
+    font-family: "preview_pppiersans-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPPierSans-Regular.woff?v=165976500998249852721630354992") format("woff");
+}
+@font-face {
+    font-family: "preview_pphatton-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPHatton-Regular.woff?v=17914648618059047881618881895") format("woff");
+}
+@font-face {
+    font-family: "preview_ppmonumentextended-regular";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPMonumentExtended-Regular.woff?v=81693901422891830231658415988") format("woff");
+}
+@font-face {
+    font-family: "preview_ppagrandir-grandmedium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPAgrandir-GrandMedium.woff?v=112419359884645449681624548892") format("woff");
+}
+@font-face {
+    font-family: "preview_ppwoodland-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPWoodland-Light.woff?v=161071325700105153061613662869") format("woff");
+}
+@font-face {
+    font-family: "preview_pppangramsans-compactmedium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPPangramSans-CompactMedium.woff?v=2128244853225631571618506000") format("woff");
+}
+@font-face {
+    font-family: "preview_ppstellar-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPStellar-Light.woff?v=16003272772619768851624300936") format("woff");
+}
+@font-face {
+    font-family: "preview_ppmigra-medium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPMigra-Medium.woff?v=14402038135395066891624886406") format("woff");
+}
+@font-face {
+    font-family: "preview_ppcirka-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPCirka-Light.woff?v=81098913243616894931623962169") format("woff");
+}
+@font-face {
+    font-family: "preview_pptelegraf-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPTelegraf-Light.woff?v=4967801614078287271673963256") format("woff");
+}
+@font-face {
+    font-family: "preview_pppangramsansrounded-slimmedium";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPPangramSansRounded-SlimMedium.woff?v=117905254463108940861624643754") format("woff");
+}
+@font-face {
+    font-family: "preview_ppcharlevoix-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPCharlevoix-Light.woff?v=109610977962323261311630355401") format("woff");
+}
+@font-face {
+    font-family: "preview_ppmondwest-bold";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPMondwest-Bold.woff?v=117690168698756929231624502621") format("woff");
+}
+@font-face {
+    font-family: "preview_ppeiko-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEiko-Light.woff?v=37763251632726490021635862023") format("woff");
+}
+
+
+/* ################################## LIGHT MODE ############################# */
+
+.dark-mode{
+    .card{
+        background-color: #fff;
+    }
+    .middle-part{
+        background-color: #fff;
+    }
+    .middle-para,.middle-text{
+        color:#000
+    }
+    .text-about-us p{
+        color: #000;
+    }
+    .icon,.card-heading{
+        color: #000;
+    }
+    .links a{
+        color: #000;
+    }
+    .mid-icon{
+        color: #000;
+    }
+    .links div:hover{
+        border-color: #000;
+    }
+  .card{
+    border: 1px solid #000;
+    }
+   .card-text p{
+    color: #000;
+   }
+   .card-head{
+    color: #000;
+   }
+   .round-card{
+    background-color: #000;
+   }
+   .round-card:hover{
+    background-color: #000;
+    opacity: .9;
+    .round-card p,.round-card h1{
+        color: grey;
+    }
+   }
+   
+   .round-card,.round-card h1{
+    background-color: #000;
+    color: #fff;
+    }
+    .font-div a{
+        color: #000;
+    }
+    .font-div:hover{
+        border-color:#000 ;
+        animation: border1 1s;
+    }
+    @keyframes border1 {
+        from{
+            border-color: grey;
+        }
+        to{
+            border-color: #fff;
+        }
+    }
+    .hrule{
+        background-color: #000;
+        height: 1.5px;
+    }
+    .div-blw-hr p{
+        color: #000;
+    }
+    #text-box h1{
+        color: #000;
+    }
+    .bottom{
+        background-color: #fff;
+    }
+    .left{
+        color: #000;
+    }
+    .right{
+        color: gray;
+    }
+    .footer{
+        padding-top: 100px;
+    }
+    .div-blw-hr-2{
+        color: #000;
+    }
+    .last-1 h1,.last-2 h1,.last-3 h1{
+        color: #000;
+    }
+}
+
+
+
+
+
+/* ################################## LIGHT MODE ############################# */
+.left{
+    color: #fff;
+}
+.opacity{
+    opacity: 0;
+}
+.color-switch{
+    color: #000;
+}
+.back-switch1{
+    background-color: #fff;
+}
+.back-switch2{
+    background-color: #000;
+}
+body{
+    margin: 0;
+    background-color: rgb(34, 33, 33);
+    
+}
+.top-part{
+    overflow: hidden;
+    width: 90vw;
+    overscroll-behavior-x:none;
+}
+.carousel-img{  
+    position:absolute;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+}
+.mode-button{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+}
+.load-text{
+    position: relative;
+    z-index: -1;
+  display: flex;
+  flex-direction: column;
+  -webkit-animation: fadein 1s;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+        top: 400px;
+    }
+    to{
+        opacity: 1;
+        bottom: 50px;
+    }
+}
+.load-text span{
+    
+    color:#ff3d00;
+    font-size: 150px;
+    font-family: brut,"Neue Montreal";
+    
+}
+
+        /* ##################################NAVBAR###### */
+.navbar{
+    position:fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 32.5px;
+    width: 100%;
+    transition: top 1s;
+    -webkit-animation: fadein 1s; 
+    
+}
+@keyframes fadein{
+    from {
+        opacity: 0;
+        margin-top: 30px;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.nav-right{
+    width: 31%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left{
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hamburger-menu{
+  padding-top: 60px;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin : 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+  }
+  .hamburger-menu:hover{
+    .bar:nth-child(1){
+        transform: translateY(-4px);
+        
+    }
+    .bar:nth-child(2){
+        transform: translateY(+4px);
+    }
+  }
+
+.hamburger-menu{
+   display: block;
+  }
+.hamburger-menu.active .bar:nth-child(1){
+   transform: translateY(2px) rotate(45deg);
+   background-color: #000;
+  }
+.hamburger-menu.active .bar:nth-child(2){
+      transform: translateY(-2px) rotate(-45deg);
+      background-color: #000;
+    }
+a{
+    padding: 5px;
+    text-decoration: none;
+   color: #fff;
+}
+a:hover{
+    color: grey;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    height: 120vh;
+    position:fixed;
+    z-index:-1;
+   background-origin: initial;
+}
+.carousel-box{
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction:column ;
+    bottom: 8%;
+    left: 4%;
+    z-index: -1;
+    width:28%;
+    padding: 16.25px;
+    border: solid .5px grey;
+    border-radius:10px ;
+    -webkit-animation: fade-in 2s;
+    -webkit-animation-direction: normal;
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        bottom: 4%;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.box-heading{
+    font-family: brut, "Neue Montreal";
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0.625rem;
+}
+.box-text{
+    font-size:18px;
+    font-family: brut, "Neue Montreal";
+    line-height: 1;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+}
+.side-tag{
+    top: 45%;
+    height: 40px;
+    
+
+}
+.carousel-box:hover{
+    border: 1px solid #fff;
+  background-color: rgba(70, 69, 69, 0.815);
+}
+.middle-part{
+    padding: 0 32.5px 90px;
+    background: linear-gradient(141deg ,none 0%,#000 1%,#000 100%);
+}
+.middle-text{
+    text-align:left;
+    color:#fff;
+    font-family: "Neue Montreal",sans-serif;
+    max-width: 78.125rem;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight:lighter;
+    padding-right: 40.625px;
+    margin-bottom: 48.75px;
+    width: 90%;
+}
+.hrule{
+    height: 1.5px;
+    padding: 0;
+    align-items: center;
+    background-color:#fff;
+}
+.text-about-us p{
+    padding-top: 3.25px;
+    font-size: 13px;
+    font-family: "Neue Montreal",sans-serif;
+    margin-bottom: 58.4375px;
+    color: #fff;
+}
+.dot{
+    margin-right: 0.625rem;
+    color: #fff;
+}
+.middle-para{
+    font-family: "Neue Montreal",sans-serif ;
+     font-size: 13px;
+     color: #fff;
+     width: 20%;
+     margin-top: 50px;
+     margin-right: 110px;
+     margin-left: auto;
+     
+}
+.nav-col{
+    background-color: rgb(36, 36, 36);
+    
+}
+.scroll{
+    display: none;
+}
+.links{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    margin-top: 17.5px;
+    margin-left: 35%;
+    margin-bottom: 112.5px;
+    padding-top: 30px;
+    padding-left: 20px;
+ }
+.links div{
+    width: auto;
+    margin-left:50px;
+    border-bottom: 2px solid grey;
+    
+}
+.links div:hover{
+      border-color: #fff;
+}
+.links a{
+    font-size: 19.25px;
+    font-family:"Neue Montreal",sans-serif;
+    margin-right: 90px;
+}
+.links div{
+    padding-bottom:8.75px;
+}
+.card-heading{
+    font-family: "Neue Montreal",sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 10.5px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30.625px;
+}
+
+/* ####################################    CARD ############################### */
+.card-col{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.card-block{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    height: 400px;
+    width: 90%;
+    background: scroll;
+   margin: 0 20px 20px 0;
+   border: 1px solid #fff;
+   overflow: hidden;
+   padding: 25px;
+}
+
+.card:hover{
+    background-color: #fff;
+
+    .card-text p{
+        color: #000;
+    }
+    .ribbon{
+        display: none;
+    }
+    .card-head{
+        color: #000;
+        font-size: 30px;
+        padding-top: 62.5px;
+        line-height: 1;
+    }
+    .card-text{
+        margin-top: 100px;
+    }
+    .mid-icon{
+        color: #000;
+    }
+}
+
+
+.ribbon{
+    position: absolute;
+    color: #000;
+    top: 20px;
+    text-align: center;
+    right: -25px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    font-size: .6rem;
+    height: 1.5625rem;
+    width: 7rem;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: -9.375rem;
+}
+.card-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-align:left;
+    padding:0 ;
+    margin-top: -70px;
+   margin-left: 10px;
+    font-size: 140px;
+}
+.one{
+    margin-top: -40px;
+}
+.card-text{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.card-text p{
+    font-size:13px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.mid-icon{
+    color: #fff;
+}
+.card-col{
+    transition: 1s margin-top;
+}
+.round-card{
+    height: 240px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    border-radius: 100%;
+    background-color: #e4e0e0;
+    margin-bottom: 20px;
+    color: #000;
+    align-items:center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+.round-card p{
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+.round-card h1{
+    margin-top: 0;
+    width: 90%;
+    font-size: 30px;
+    color: #1c1c1c;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-left: 30px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+#two{
+    margin-top: 200px;
+}
+#three{
+    margin-top: 100px;
+}
+#four{
+    margin-top: 150px;
+}
+.font-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    transition: border-color .3s ease-in-out;
+    padding: 0 0 10px 0;
+    margin-left: 30%;
+    margin-bottom: 150px;
+    
+}
+
+.font-div a{
+    padding: 0;
+    margin-left: 0;
+    font-size: 17.875px;
+    font-family: "Neue Montreal",sans-serif;
+    
+}
+.font-div:hover{
+    border-color: #fff;
+    animation: border 1s forwards;
+}
+@keyframes border {
+    from{
+        border-color: grey;
+    }
+    to{
+        border-color: #fff;
+    }
+}
+.div-blw-hr{
+    width: 8%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.div-blw-hr p{
+    margin-left: 0px;
+    font-size: 13px;
+}
+#text-box{
+  padding-right: 40.625px;
+  margin-left: auto;
+  margin-bottom: 32.5px;
+  width:58%;
+  
+}
+#text-box h1{
+    color: #fff;
+    font-family: "Neue Montreal",sans-serif;
+    font-size: 32px;
+    line-height: 0.97;
+}
+#text-box p{
+    padding: 0;
+    margin: 0;
+}
+/* #######################################    END PART ############### */
+.bottom{
+    margin: 0 32.5px;
+}
+.end-part{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+    margin-left:0 ;
+}
+
+.text-div{
+    display: flex;
+    flex-direction: row;
+   
+}
+.beer-div{
+    width: 70%;
+    height: 60vh;
+    overflow:hidden;
+}
+.beer{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    
+}
+.bag{
+    height: 200px;
+}
+.bag-div{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.beer-text{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.can-tini{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.branding{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.bag-text{
+    display: flex;
+    flex-direction: row;
+   width:30%;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.litera{
+    width: 50%;
+}
+.event{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.thor-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;  
+}
+.thorlo{
+    margin-left: -10px;
+    padding-top: 100px;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.saison{
+    margin-top: 20px;
+    height: 230px;
+    border-radius: 10px;
+}
+.thor-img img{
+    width: 40%;
+    height: 250px;
+    border-radius: 10px ;
+}
+.nutella-text , .thorlo-text , .saisons-text{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    color: #fff;
+}
+.trop,.branding,.thorloo,.saisons-zero,.print{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.thorlo-text{
+    margin: 0 90px;
+}
+.nutella-text{
+    width: 35%;
+}
+.div-blw-hr-2{
+    display: flex;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.last img{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 17.5px;
+    width: 100%;
+}
+
+.last div{
+    width: 33%;
+}
+.last-1,.last-2{
+    margin-right: 30px;
+}
+.last h1{
+    color: #fff;
+    font-size: 30px;
+    font-family:"Neue Montreal",sans-serif ;
+    width: 95%;
+}
+.last h4{
+    font-family:"Neue Montreal",sans-serif ;
+    color:grey;
+    font-size: 16px;
+    margin-bottom: 8.75px;
+}
+.footer{
+    padding: 0 32.5px;
+    padding-top: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.footer div{
+    width: 50%;
+}
+.footer div h1{
+    width: 50%;
+    line-height: 0.9;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.footer div input{
+    border: none; 
+}
+.footer-right{
+    display: flex;
+}
+.footer-right ul{
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.8;
+}
+.social{
+    padding: 0px 32.5px ;
+    background-color: #fff;
+    display: flex;
+   flex-direction:column;
+   
+}
+.icons{
+    display: flex;
+    align-items:center;
+}
+.logo{
+    margin: 0 10px ;
+    padding-top: 60px;
+}
+
+.dynamic-font{
+    display: flex;
+   font-size: 8rem;
+   padding-top: -10px;
+   align-items: flex-end;
+}
+.font-style-div ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    margin-right: 140px;
+
+}
